@@ -97,12 +97,6 @@ import socket
 import importlib
 from csv import writer
 import subprocess as subp
-import os
-
-def clear_screen():
-    os.system('clear')
-
-clear_screen()
 from ipaddress import ip_address
 from signal import SIGTERM
 
@@ -119,8 +113,8 @@ def banner():
 		twitter_url = json_data['twitter']
 		comms_url = json_data['comms']
 
-            art = r'''
-  
+        art = r'''  
+	
 ______  ___  ______ _   __           ___________  ___  _____  _   __     ___  ___ _____ 
 |  _  \/ _ \ | ___ \ | / /          |_   _| ___ \/ _ \/  __ \| | / /     |  \/  ||  ___|
 | | | / /_\ \| |_/ / |/ /   ______    | | | |_/ / /_\ \ /  \/| |/ /      | .  . || |__  
