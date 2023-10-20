@@ -369,7 +369,7 @@ def data_parser():
 {G}[+] {C}Altitude  : {W}{var_alt}
 {G}[+] {C}Direction : {W}{var_dir}
 {G}[+] {C}Speed     : {W}{var_spd}
-'''
+
 				utils.print(loc_info)
 				send_telegram(result_json, 'location')
 				send_webhook(result_json, 'location')
