@@ -97,6 +97,12 @@ import socket
 import importlib
 from csv import writer
 import subprocess as subp
+import os
+
+def clear_screen():
+    os.system('clear')
+
+clear_screen()
 from ipaddress import ip_address
 from signal import SIGTERM
 
