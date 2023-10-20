@@ -122,8 +122,6 @@ def banner():
      \/      \/     \/      \/     \/'''
 	utils.print(f'{G}{art}{W}\n')
 	utils.print(f'{G}[>] {C}Created By   : {W}error.2005.03')
-	utils.print(f'{G} |---> {C}Telegram   : {W}{t.me/error_2005_03}')
-	utils.print(f'{G} |---> {C}Channel : {W}{t.me/+dO-Lc__nDaE5Mzhl}')
 	utils.print(f'{G}[>] {C}Version      : {W}{VERSION}\n')
 
 
