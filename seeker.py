@@ -114,15 +114,16 @@ def banner():
 		comms_url = json_data['comms']
 
 	art = r'''
-                        __
-  ______  ____   ____  |  | __  ____ _______
- /  ___/_/ __ \_/ __ \ |  |/ /_/ __ \\_  __ \
- \___ \ \  ___/\  ___/ |    < \  ___/ |  | \/
-/____  > \___  >\___  >|__|_ \ \___  >|__|
-     \/      \/     \/      \/     \/'''
-	utils.print(f'{G}{art}{W}\n')
-	utils.print(f'{G}[>] {C}Created By   : {W}error.2005.03')
-	utils.print(f'{G}[>] {C}Version      : {W}{VERSION}\n')
+logo = f"""
+{blue}______  ___  ______ _   __    __   __ _____ 
+{blue}|  _  \/ _ \ | ___ \ | / /    \ \ / /|  _  |
+{blue}| | | / /_\ \| |_/ / |/ /______\ V /  \ V / 
+{blue}| | | |  _  ||    /|    \______/   \  / _ \ 
+{blue}| |/ /| | | || |\ \| |\  \    / /^\ \| |_| |
+{blue}|___/ \_| |_/\_| \_\_| \_/    \/   \/\_____/
+{red}{" "*35}         [{blue}v{version[:17]}{yellow}]
+{cyan}{" "*36}[{blue}By {red}Error.2005.03{cyan}]
+"""
 
 
 def send_webhook(content, msg_type):
