@@ -113,7 +113,7 @@ def banner():
 		twitter_url = json_data['twitter']
 		comms_url = json_data['comms']
 
-	art = r'''
+	logo = f"""
 {blue} ______  ___  ______ _   __    __   __ _____ 
 {blue}|  _  \/ _ \ | ___ \ | / /    \ \ / /|  _  |
 {blue}| | | / /_\ \| |_/ / |/ /______\ V /  \ V / 
@@ -121,7 +121,7 @@ def banner():
 {blue}| |/ /| | | || |\ \| |\  \    / /^\ \| |_| |
 {blue}|___/ \_| |_/\_| \_\_| \_/    \/   \/\_____/
 {red}{" "*35}         [{blue}v{version[:17]}{yellow}]
-{cyan}{" "*36}[{blue}By {red}Error.2005.03{cyan}]'''
+{cyan}{" "*36}[{blue}By {red}Error.2005.03{cyan}]"""
 
 def send_webhook(content, msg_type):
 	if webhook is not None:
