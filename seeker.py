@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-VERSION = '1.3.1'
+VERSION = '2.O'
 
 R = '\033[31m'  # red
 G = '\033[32m'  # green
@@ -120,9 +120,9 @@ def banner():
  \___ \ \  ___/\  ___/ |    < \  ___/ |  | \/
 /____  > \___  >\___  >|__|_ \ \___  >|__|
      \/      \/     \/      \/     \/'''
-	utils.print(f'{G}{art}{W}\n')
-	utils.print(f'{G}[>] {C}Created By   : {R}[̲̅e][̲̅r][̲̅r][̲̅o][̲̅r][̲̅.][̲̅2][̲̅0][̲̅0][̲̅5][̲̅.][̲̅0][̲̅3]')
-	utils.print(f'{G}[>] {C}Version      : {W}{VERSION}\n')
+	utils.print(f'{Y}{art}{W}\n')
+	utils.print(f'{G}[>] {C}Created By   : {R}[̲̅e][̲̅r][̲̅r][̲̅o][̲̅r].[̲̅2][̲̅0][̲̅0][̲̅5].[̲̅0][̲̅3]')
+	utils.print(f'{G}[>] {C}Version      : {R}{VERSION}\n')
 
 def send_webhook(content, msg_type):
 	if webhook is not None:
