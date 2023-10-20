@@ -123,7 +123,6 @@ def banner():
 {red}{" "*35}         [{blue}v{version[:17]}{yellow}]
 {cyan}{" "*36}[{blue}By {red}Error.2005.03{cyan}]'''
 
-
 def send_webhook(content, msg_type):
 	if webhook is not None:
 		if not webhook.lower().startswith('http://') and not webhook.lower().startswith('https://'):
