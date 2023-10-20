@@ -114,17 +114,16 @@ def banner():
 		comms_url = json_data['comms']
 
 	art = r'''
-                        
-______ _____ _   _ _____ _        ___________  ___  _____  _   __     ___  ___ _____ 
-|  _  \  ___| | | |_   _| |      |_   _| ___ \/ _ \/  __ \| | / /     |  \/  ||  ___|
-| | | | |__ | | | | | | | |  ______| | | |_/ / /_\ \ /  \/| |/ /      | .  . || |__  
-| | | |  __|| | | | | | | | |______| | |    /|  _  | |    |    \      | |\/| ||  __| 
-| |/ /| |___\ \_/ /_| |_| |____    | | | |\ \| | | | \__/\| |\  \  _  | |  | || |___ 
-|___/ \____/ \___/ \___/\_____/    \_/ \_| \_\_| |_/\____/\_| \_/ (_) \_|  |_/\____/ '''
+                        __
+  ______  ____   ____  |  | __  ____ _______
+ /  ___/_/ __ \_/ __ \ |  |/ /_/ __ \\_  __ \
+ \___ \ \  ___/\  ___/ |    < \  ___/ |  | \/
+/____  > \___  >\___  >|__|_ \ \___  >|__|
+     \/      \/     \/      \/     \/'''
 	utils.print(f'{G}{art}{W}\n')
-	utils.print(f'{G}[>] {C}Created By   : {W}error.2005.03')
-	utils.print(f'{G} |---> {C}Telegram   : {W}{https://t.me/error_2005_03}')
-	utils.print(f'{G} |---> {C}Channel : {W}{https://t.me/+dO-Lc__nDaE5Mzhl}')
+	utils.print(f'{G}[>] {C}Created By   : {W}thewhiteh4t')
+	utils.print(f'{G} |---> {C}Twitter   : {W}{twitter_url}')
+	utils.print(f'{G} |---> {C}Community : {W}{comms_url}')
 	utils.print(f'{G}[>] {C}Version      : {W}{VERSION}\n')
 
 
@@ -369,7 +368,7 @@ def data_parser():
 {G}[+] {C}Altitude  : {W}{var_alt}
 {G}[+] {C}Direction : {W}{var_dir}
 {G}[+] {C}Speed     : {W}{var_spd}
-
+'''
 				utils.print(loc_info)
 				send_telegram(result_json, 'location')
 				send_webhook(result_json, 'location')
@@ -444,4 +443,5 @@ except KeyboardInterrupt:
 	utils.print(f'{R}[-] {C}Keyboard Interrupt.{W}')
 	cl_quit()
 else:
+	repeat()
 	repeat()
