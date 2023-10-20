@@ -112,14 +112,8 @@ def banner():
 		json_data = loads(metadata.read())
 		twitter_url = json_data['twitter']
 		comms_url = json_data['comms']
-import os
 
-def clear_screen():
-    os.system('clear')
-
-clear_screen() 
-
-	art = r'''
+            art = r'''
   
 ______  ___  ______ _   __           ___________  ___  _____  _   __     ___  ___ _____ 
 |  _  \/ _ \ | ___ \ | / /          |_   _| ___ \/ _ \/  __ \| | / /     |  \/  ||  ___|
