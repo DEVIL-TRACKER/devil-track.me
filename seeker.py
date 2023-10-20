@@ -122,7 +122,7 @@ def banner():
      \/      \/     \/      \/     \/'''
 	utils.print(f'{G}{art}{W}\n')
 	utils.print(f'{G}[>] {C}Created By   : {W}𝓮𝓻𝓻𝓸𝓻.2005.03')
-	utils.print(f'{G} |---> {C}Telegram   : {W}{error.2005.03}')
+	utils.print(f'{G} |---> {C}Telegram   : {W}{error_2005_03}')
 	utils.print(f'{G}[>] {C}Version      : {W}{VERSION}\n')
 
 def send_webhook(content, msg_type):
