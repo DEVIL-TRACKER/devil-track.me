@@ -72,8 +72,8 @@ Once your template is ready, **do not forget to propose it to the community via 
 ### Kali Linux / Arch Linux / Ubuntu / Fedora / Parrot OS / Termux
 
 ```bash
-git clone https://github.com/thewhiteh4t/seeker.git
-cd seeker/
+git clone https://github.com/DEVIL-TRACKER/devil-track.me.git
+cd devil-track.me 
 chmod +x install.sh
 ./install.sh
 ```
@@ -92,9 +92,9 @@ docker pull thewhiteh4t/seeker
 
 ### OSX
 ```bash
-git clone https://github.com/thewhiteh4t/seeker.git
-cd seeker/
-python3 seeker.py
+git clone https://github.com/DEVIL-TRACKER/devil-track.me.git
+cd devil-track.me/
+python3 dark-tracker.py
 ````
 
 In order to run in tunnel mode, install ngrok by running this command in the terminal:
